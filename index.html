@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Barbearia do Digão</title>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>Seja Bem vindo</h1>
+        </div>
+        <div class="card-body">
+            <form id="appointmentForm">
+                <label for="name" style="color: aliceblue;">Nome:</label>
+                <input type="text" id="name" required>
+
+                <label for="email" style="color: aliceblue;">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="service" style="color: aliceblue;">Serviço:</label>
+                <select id="service" required>
+                    <option value="haircut">Corte de Cabelo</option>
+                    <option value="beard">Barba</option>
+                    <option value="facial">Tratamento Facial</option>
+                </select>
+
+                <label for="date" style="color: aliceblue;">Data:</label>
+                <input type="date" id="date" required>
+
+                <label for="time" style="color: aliceblue;">Horário:</label>
+                <input type="time" id="time" required>
+
+                <button type="submit">Agendar</button>
+            </form>
+        </div>
+        <div class="card-footer">
+            <a href="https://www.instagram.com/digao_barbearia_/"><ion-icon name="logo-instagram" style="color: rgb(22, 45, 66); font-size: 30px;"></ion-icon></a>
+            <p>Telefone: (123) 456-7890</p>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
